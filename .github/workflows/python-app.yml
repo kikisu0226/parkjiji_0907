@@ -1,6 +1,6 @@
 name: get stock price
 
-on:
+'on':
   workflow_dispatch:
   schedule:
     - cron: '*/5 1-5 * * 1-5'
@@ -26,5 +26,6 @@ jobs:
 
       - name: Run Python script
         run: python test1.py
+
 
 
